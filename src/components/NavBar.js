@@ -5,9 +5,10 @@ const link = {
   width: '100px',
   padding: '12px',
   margin: '0 6px 6px',
-  background: 'blue',
+  background: 'white',
   textDecoration: 'none',
-  color: 'white',
+  color: 'red',
+  border: '1px solid red'
 }
 
 const NavBar = () => {
@@ -18,7 +19,8 @@ const NavBar = () => {
         exact
         style={link}
         activeStyle={{
-          background: 'darkblue'
+          color: 'white',
+          background: 'darkRed'
         }}
       >Home</NavLink>
       <NavLink
@@ -26,7 +28,8 @@ const NavBar = () => {
         exact
         style={link}
         activeStyle={{
-          background: 'darkblue'
+          color: 'white',
+          background: 'darkRed'
         }}
       >Movies</NavLink>
       <NavLink
@@ -34,7 +37,8 @@ const NavBar = () => {
         exact
         style={link}
         activeStyle={{
-          background: 'darkblue'
+          color: 'white',
+          background: 'darkRed'
         }}
       >Directors</NavLink>
       <NavLink
@@ -42,7 +46,8 @@ const NavBar = () => {
         exact
         style={link}
         activeStyle={{
-          background: 'darkblue'
+          color: 'white',
+          background: 'darkRed'
         }}
       >Actors</NavLink>      
     </div>
