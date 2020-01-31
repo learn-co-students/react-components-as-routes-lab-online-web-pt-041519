@@ -1,0 +1,8 @@
+.navbar {
+  text-decoration: none;
+  /* text-decoration: underline overline wavy blue; */
+}
+
+.nav-link {
+  margin: 0px 10px;
+}
